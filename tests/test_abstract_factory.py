@@ -1,6 +1,6 @@
 import logging
 
-from patterns.abstract_factory.factory import AbstractFactory, ConcreteFactory1, ConcreteFactory2
+from patterns.creational.abstract_factory.factory import AbstractFactory, ConcreteFactory1, ConcreteFactory2
 
 logger = logging.getLogger(__name__)
 

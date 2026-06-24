@@ -1,7 +1,7 @@
 import copy
 import logging
 
-from patterns.prototype.component import SelfReferencingEntity, SomeComponent
+from patterns.creational.prototype.component import SelfReferencingEntity, SomeComponent
 
 logger = logging.getLogger(__name__)
 

@@ -1,5 +1,5 @@
-from patterns.builder.builder import Builder
-from patterns.builder.product import Product
+from patterns.creational.builder.builder import Builder
+from patterns.creational.builder.product import Product
 
 
 class Director:

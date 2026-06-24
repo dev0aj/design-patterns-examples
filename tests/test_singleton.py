@@ -1,7 +1,7 @@
 import logging
 from threading import Thread
 
-from patterns.singleton.singleton_meta import Singleton
+from patterns.creational.singleton.singleton_meta import Singleton
 
 logger = logging.getLogger(__name__)
 

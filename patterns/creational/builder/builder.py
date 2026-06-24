@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import override
 
-from patterns.builder.product import Product, Product1, Product2
+from patterns.creational.builder.product import Product, Product1, Product2
 
 
 class Builder(ABC):

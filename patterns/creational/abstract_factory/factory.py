@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from patterns.abstract_factory.product import (
+from patterns.creational.abstract_factory.product import (
     AbstractProductA,
     AbstractProductB,
     ConcreteProductA1,

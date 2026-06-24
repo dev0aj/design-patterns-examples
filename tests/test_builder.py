@@ -1,7 +1,7 @@
 import logging
 
-from patterns.builder.builder import Builder, ConcreteBuilder1, ConcreteBuilder2
-from patterns.builder.director import Director
+from patterns.creational.builder.builder import Builder, ConcreteBuilder1, ConcreteBuilder2
+from patterns.creational.builder.director import Director
 
 logger = logging.getLogger(__name__)
 
