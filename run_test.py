@@ -1,7 +1,18 @@
 from argparse import ArgumentParser
 
 from config.logger import setup_logging
-from tests import test_abstract_factory, test_builder, test_factory, test_prototype, test_singleton
+from tests import (
+    test_abstract_factory,
+    test_adapter_composition,
+    test_adapter_inheritance,
+    test_bridge,
+    test_builder,
+    test_composite,
+    test_decorator,
+    test_factory,
+    test_prototype,
+    test_singleton,
+)
 
 setup_logging()
 
@@ -11,6 +22,11 @@ PATTERN_RUNNERS = {
     "builder": test_builder.main,
     "prototype": test_prototype.main,
     "singleton": test_singleton.main,
+    "adapter_inheritance": test_adapter_inheritance.main,
+    "adapter_composition": test_adapter_composition.main,
+    "bridge": test_bridge.main,
+    "composite": test_composite.main,
+    "decorator": test_decorator.main,
 }
 
 
