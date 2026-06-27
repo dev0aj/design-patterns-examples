@@ -7,10 +7,13 @@ from tests import (
     test_adapter_inheritance,
     test_bridge,
     test_builder,
+    test_chain_of_responsibility,
+    test_command,
     test_composite,
     test_decorator,
     test_facade,
     test_factory,
+    test_iterator,
     test_prototype,
     test_proxy,
     test_singleton,
@@ -31,6 +34,9 @@ PATTERN_RUNNERS = {
     "decorator": test_decorator.main,
     "facade": test_facade.main,
     "proxy": test_proxy.main,
+    "chain_of_responsibility": test_chain_of_responsibility.main,
+    "command": test_command.main,
+    "iterator": test_iterator.main,
 }
 
 
