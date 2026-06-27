@@ -9,8 +9,10 @@ from tests import (
     test_builder,
     test_composite,
     test_decorator,
+    test_facade,
     test_factory,
     test_prototype,
+    test_proxy,
     test_singleton,
 )
 
@@ -27,6 +29,8 @@ PATTERN_RUNNERS = {
     "bridge": test_bridge.main,
     "composite": test_composite.main,
     "decorator": test_decorator.main,
+    "facade": test_facade.main,
+    "proxy": test_proxy.main,
 }
 
 
